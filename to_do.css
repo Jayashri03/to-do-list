@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_623425276_351576.jpg');
+    
+  }
+
+  h2{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    font-size: 40px;
+
+  }
+
+  #taskInput {
+    width: 550px;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  #addTaskBtn {
+    padding: 8px;
+    font-size: 16px;
+  
+  }
+
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  .taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+    background-color: rgba(232, 253, 234, 0.7);
+  }
+  .taskItem:hover{
+    background-color: rgb(143, 189, 138);
+  }
+
+  .taskItem :hover{
+    background-color: #f75a5a;
+  }
+
+  .taskItem button {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+
+  .taskItem.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
